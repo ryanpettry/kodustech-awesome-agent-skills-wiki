@@ -68,6 +68,8 @@ This allows agents to stay fast and focused, while still executing tasks with re
 | [sequenzy-email-marketing](https://github.com/Sequenzy/skills/tree/main/skills/sequenzy-email-marketing) | Operate Sequenzy email marketing and transactional/product email workflows from AI agents, including subscribers, campaigns, sequences, templates, sending, and usage checks. |
 | [istio-traffic-management](https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/istio-traffic-management) | Configure Istio traffic management including routing, load balancing, circuit breakers, and canary deployments. Use when implementing service mesh traffic policies, progressive delivery, or resilience patterns. |
 | [web-typography-skill](https://github.com/simongonzalezdc/web-typography-skill) | Web typography workflow for readable, accessible front-end text. |
+| [build-with-better-design](https://github.com/better-designs/better-design-plugin/tree/main/skills/build-with-better-design) | Build or redesign a web or mobile interface on a Better Design design system. Use when the user asks for an app, site, page, dashboard or component and wants it built on Better Design, or asks to choose, create or install a design system. |
+| [review-ui-with-better-design](https://github.com/better-designs/better-design-plugin/tree/main/skills/review-ui-with-better-design) | Review an interface with Better Design's checks for accessibility, visual design, copy clarity and spacing. Use when the user asks to review, audit or check a screen, or after building one with Better Design. |
 
 ---
 
@@ -193,6 +195,7 @@ This allows agents to stay fast and focused, while still executing tasks with re
 
 | Skill | Description |
 |-----------|-----------|
+| [fact-check-x-complete](https://github.com/ASI2030/Fact-Check-X/tree/main/skills/fact-check-x-complete) | Run evidence-gated fact checks across one or more AI platforms: preserve raw answers and citations, compare atomic claims, verify them with authoritative sources, and generate standalone HTML reports. |
 | [git-advanced-workflows](https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/git-advanced-workflows) | Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history and recover from any situation. Use when managing complex Git histories, collaborating on feature branches, or troubleshooting repository issues. |
 | [pr-build-status](https://github.com/dotnet/maui/tree/main/.github/skills/pr-build-status) | Retrieve Azure DevOps build information for GitHub Pull Requests, including build IDs, stage status, and failed jobs. |
 | [agentic-eval](https://github.com/github/awesome-copilot/tree/main/skills/agentic-eval) | Patterns and techniques for evaluating and improving AI agent outputs. Use this skill when: - Implementing self-critique and reflection loops - Building evaluator-optimizer pipelines for quality-critical generation - Creating test-driven code refinement workflows - Designing rubric-based or LLM-as-judge evaluation systems - Adding iterative improvement to agent outputs (code, reports, analysis) - Measuring and improving agent response quality |
@@ -271,10 +274,12 @@ This allows agents to stay fast and focused, while still executing tasks with re
 
 | Skill | Description |
 |-----------|-----------|
+| [apply-technical-concepts](https://github.com/velimir-jankovic/apply-technical-concepts/tree/main/skills/apply-technical-concepts) | Turn a technical video into a repository audit or tested implementation. Keeps transcript and frame evidence tied to exact code paths and runtime results. |
 | [before-you-build-skill](https://github.com/bin1874/before-you-build-skill) | Review product and feature risk before agents start building. |
 | [chatcrystal-debug-recall](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills/chatcrystal-debug-recall) | Recall prior ChatCrystal debugging memories for failing tests, compiler errors, runtime exceptions, dependency issues, and regressions before proposing fixes. |
 | [chatcrystal-task-recall](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills/chatcrystal-task-recall) | Recall project-first and global-supplement ChatCrystal memories before substantive implementation, refactoring, migration, configuration, investigation, or optimization work. |
 | [chatcrystal-task-writeback](https://github.com/ZengLiangYi/ChatCrystal/tree/main/skills/chatcrystal-task-writeback) | Persist reusable task memories through ChatCrystal Core writeback, or emit structured memory candidates when Core is unavailable. |
+| [code2skill-generate](https://github.com/leechen298/Code2Skill/tree/main/skills/code2skill-generate) | Convert authorized frontend, backend, or full-stack source code into runnable Functions, MCP tools, Agent Skills, and offline tests. |
 | [implementing-agent-modes](https://github.com/PostHog/posthog/tree/master/.claude/skills/implementing-agent-modes) | Guidelines to create/update a new mode for PostHog AI agent. Modes are a way to limit what tools, prompts, and prompt injections are applied and under what conditions. Achieve better results using your plan mode. |
 | [agent-skill-groups](https://github.com/go165/agent-skill-groups) | Scenario-based skill group and profile manager for Codex, Claude Code, OpenCode, and Agent Skills. |
 | [wox-plugin-creator](https://github.com/Wox-launcher/Wox/tree/master/wox.core/resource/ai/skills/wox-plugin-creator) | Create and scaffold Wox plugins (nodejs, python, script-nodejs, script-python). Use when cloning official SDK templates, generating script plugin templates, or preparing plugins for publish. |
@@ -293,6 +298,8 @@ This allows agents to stay fast and focused, while still executing tasks with re
 | [swarmclaw](https://github.com/swarmclawai/swarmclaw/tree/main/skills/swarmclaw) | Operate SwarmClaw's self-hosted multi-agent runtime, skills, delegation, provider routing, schedules, and MCP workflows. |
 | [swarmvault](https://github.com/swarmclawai/swarmvault/tree/main/skills/swarmvault) | Build local-first knowledge vaults, graph-backed context packs, durable research outputs, and MCP-accessible project memory. |
 | [skillreaper](https://github.com/thousandflowers/skillreaper) | Reads real session transcripts to find skills, MCP servers, and agents that were loaded but never fired, then safely quarantines them. Supports Claude Code, Codex, Hermes, OpenCode, Cursor, and OpenClaw. Zero telemetry, single static Go binary, Homebrew and npm. MIT. |
+| [youtube-full](https://github.com/ZeroPointRepo/youtube-skills/tree/main/skills/youtube-full) | Get YouTube transcripts, search videos and channels, list channel uploads, and extract playlists without Google API quotas or OAuth, usable in Claude, ChatGPT, OpenClaw, Hermes Agent and other MCP clients or from your own software via the TranscriptAPI REST API. MIT. |
+| [youtube-transcript-skills](https://github.com/tubeagentkit/youtube-transcript-skills) | Fetch YouTube transcripts, search videos/channels, browse channels, and extract playlists via getyoutubetranscript.com's free-tier API, no Google Cloud API key or yt-dlp needed. Also available as an MCP server (API key or OAuth 2.1). MIT. |
 | [wiki](https://github.com/plasma-ai/wiki/tree/main/wiki/skills/wiki) | Indexed knowledge bases with command-line tools for agents. |
 
 ---
